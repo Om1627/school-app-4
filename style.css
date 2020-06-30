@@ -1,0 +1,205 @@
+
+.zen{
+    color: #28bed8;
+}
+
+.abt{
+    color: rgba(82, 3, 40, 0.932);
+}
+
+.act{
+    color: darkblue
+}
+
+.evt{
+    color: darkred;
+}
+
+.exp{
+    color: darkgreen;
+}
+
+
+
+hr{
+    height:10px;
+    
+    border-width:20;color:black;
+    background-color:lightgreen
+}
+
+
+
+.header{
+    background-image: linear-gradient(rgb(195, 24, 201),rgb(134, 4, 4));
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.AboutHeader{
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(skyblue,yellow);
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.ActHeader{
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(red,yellow);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.ExpHeader{
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(cyan,orange);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.EventsHeader{
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(cyan,lightgreen);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.menu{
+    background-color:yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid{
+    
+    
+    display: flex; 
+    justify-content: center;
+    
+}
+
+
+
+.footer {
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+.menu a:link{
+    margin-left: 30px;
+   
+}
+
+.item{
+    margin: 100px;
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    color: rgb(34, 220, 226);
+    font-size: large;
+
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+    
+}
+
+a:link{
+    color: rgb(12, 12, 66);
+   
+}
+a:visited{
+    color: rgb(255, 0, 106);
+}
+
+.main{
+    background-image: linear-gradient(red,blue)
+}
+
+.bodyabt{
+    background-image: radial-gradient(purple,black);
+}
+
+.bodyact{
+    background-image: radial-gradient(orange,skyblue);
+}
+
+.bodyevt{
+    background-image: radial-gradient(yellow,darkgreen);
+}
+.bodyexps{
+  background-image:radial-gradient(rgb(5, 103, 231),rgb(241, 25, 25));
+}
+
+.AboutPara{
+    margin: 50px;
+    padding: 20px;
+    color: deepskyblue;
+    display: flexbox;
+    justify-content:flex-start;
+    font-size: x-large;
+    
+}
+
+.ActPara{
+
+    padding: 20px;
+    margin: 50px;
+    display: flexbox;
+    justify-content:flex-start;
+    font-size: x-large;
+}
+
+.EventsPara{
+
+    padding: 20px;
+    margin: 50px;
+    color: rgb(0, 0, 0);
+    display: flexbox;
+    justify-content:flex-start;
+    font-size: x-large;
+}
+
+.ExpPara{
+
+    padding: 20px;
+    margin: 50px;
+    display: flexbox;
+    justify-content:flex-start;
+    color:rgb(136, 255, 0);
+    font-size: x-large;
+}
+
+.budhimg{
+    margin:50px;
+    display:flex;
+    justify-content: center;
+ 
+ }
+ 
